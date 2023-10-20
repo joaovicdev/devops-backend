@@ -4,7 +4,7 @@
     "dev": "ts-node ./src/index.ts",
     "build": "tsc",
     "start": "node ./dist/index.js",
-    "deploy": "zip -r deploy.zip . -x ./node_modules/\\* ./dist/\\*"
+    "deploy": "zip -r deploy.zip . -x ./node_modules/\\* ./dist/\\* ./.git/\\*"
   },
   "devDependencies": {
     "@types/express": "^4.17.20",
